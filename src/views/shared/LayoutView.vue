@@ -1,6 +1,7 @@
 <template>
     <div>
-       This is about view 
+        This is Layout Page
+        <RouterView></RouterView>
     </div>
 </template>
 <script>

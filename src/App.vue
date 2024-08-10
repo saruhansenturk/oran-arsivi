@@ -1,30 +1,31 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
 </template>
 
+<script>
+export default{
+  mounted() {
+    skrollr.init({forceHeight: false});
+
+    jQuery(window).on('load', function(){
+			jQuery('#oc-services').owlCarousel({
+				items: 1,
+				margin: 30,
+				nav: false,
+				dots: true,
+				smartSpeed: 400,
+				responsive:{
+					576: { stagePadding: 30, items: 1 },
+					768: { stagePadding: 30, items: 2 },
+					991: { stagePadding: 150, items: 3 },
+					1200: { stagePadding: 150, items: 3}
+				},
+			});
+		});
+  },
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
