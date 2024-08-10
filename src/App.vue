@@ -3,11 +3,13 @@
 </template>
 
 <script>
-export default{
-  mounted() {
-    skrollr.init({forceHeight: false});
+import skrollr from '../node_modules/skrollr/dist/skrollr.min.js';
+import jQuery from 'jquery';
 
-    jQuery(window).on('load', function(){
+
+export default{
+	created() {
+		jQuery(window).on('load', function(){
 			jQuery('#oc-services').owlCarousel({
 				items: 1,
 				margin: 30,
@@ -22,6 +24,9 @@ export default{
 				},
 			});
 		});
+	},
+  mounted() {
+    skrollr.init({forceHeight: false});
   },
 }
 </script>
