@@ -1,5 +1,5 @@
 <template>
-  	<!-- Document Wrapper
+	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper">
 
@@ -14,7 +14,9 @@
 						============================================= -->
 						<div id="logo">
 							<a href="demo-freelancer.html">
-								<img class="logo-default" srcset="@/assets/freelancer/images/logo.png, @/assets/freelancer/images/logo@2x.png 2x" src="@/assets/freelancer/images/logo@2x.png" alt="Canvas Logo">
+								<img class="logo-default"
+									srcset="@/assets/freelancer/images/logo.png, @/assets/freelancer/images/logo@2x.png 2x"
+									src="@/assets/freelancer/images/logo@2x.png" alt="Canvas Logo">
 							</a>
 						</div><!-- #logo end -->
 
@@ -33,9 +35,16 @@
 						<nav class="primary-menu">
 
 							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="demo-freelancer-about.html"><div>About me</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-freelancer-works.html"><div>Works</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#" data-scrollto="#footer" data-easing="easeInOutExpo" data-speed="1250" data-offset="70"><div>Contact</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-freelancer-about.html">
+										<div>About me</div>
+									</a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-freelancer-works.html">
+										<div>Works</div>
+									</a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-scrollto="#footer"
+										data-easing="easeInOutExpo" data-speed="1250" data-offset="70">
+										<div>Contact</div>
+									</a></li>
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -47,15 +56,18 @@
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element min-vh-md-100 py-4 include-header" style="background: #FFF url('@/assets/freelancer/images/hero-bg.svg') repeat top center; background-size: cover;">
+		<section id="slider" class="slider-element min-vh-md-100 py-4 include-header" :style="backgroundStyle">
 			<div class="slider-inner">
 				<div class="vertical-middle slider-element-fade">
 					<div class="container text-center py-5">
 						<div class="emphasis-title mb-2">
 							<h4 class="text-uppercase ls-3 fw-bolder mb-0">I'm a Freelance</h4>
 							<h1>
-								<span id="oc-images" class="owl-carousel image-carousel carousel-widget" data-items="1" data-margin="0" data-autoplay="3000" data-loop="true" data-nav="false" data-pagi="false" data-animate-in="fadeInUp">
-									<div class="oc-item gradient-text gradient-red-yellow text-uppercase">Developer</div>
+								<span id="oc-images" class="owl-carousel image-carousel carousel-widget" data-items="1"
+									data-margin="0" data-autoplay="3000" data-loop="true" data-nav="false"
+									data-pagi="false" data-animate-in="fadeInUp">
+									<div class="oc-item gradient-text gradient-red-yellow text-uppercase">Developer
+									</div>
 									<div class="oc-item gradient-text gradient-red-yellow text-uppercase">Designer</div>
 								</span>
 							</h1>
@@ -64,10 +76,17 @@
 							<img src="@/assets/freelancer/images/face.svg" alt="Face" width="60">
 							<span class="text-uppercase fw-bold ms-3">SemiColonWeb</span>
 						</div> -->
-						<div class="mx-auto"  style="max-width: 600px">
-							<p class="lead fw-normal text-dark mb-5">Authoritatively expedite backward-compatible e-commerce with cross-media e-commerce. Credibly provide access to world-class action items through resource-leveling resources.</p>
-							<a href="demo-freelancer-works.html" class="button button-dark button-hero h-translatey-3 tf-ts button-reveal overflow-visible bg-dark text-end"><span>View our Works</span><i class="bi-arrow-right"></i></a>
-							<a href="#" data-scrollto="#footer" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" class="button button-large button-light text-dark bg-transparent m-0"><i class="bi-arrow-down-circle fw-bold"></i> <u>Contact Me</u></a>
+						<div class="mx-auto" style="max-width: 600px">
+							<p class="lead fw-normal text-dark mb-5">Authoritatively expedite backward-compatible
+								e-commerce with cross-media e-commerce. Credibly provide access to world-class action
+								items through resource-leveling resources.</p>
+							<a href="demo-freelancer-works.html"
+								class="button button-dark button-hero h-translatey-3 tf-ts button-reveal overflow-visible bg-dark text-end"><span>View
+									our Works</span><i class="bi-arrow-right"></i></a>
+							<a href="#" data-scrollto="#footer" data-easing="easeInOutExpo" data-speed="1250"
+								data-offset="70"
+								class="button button-large button-light text-dark bg-transparent m-0"><i
+									class="bi-arrow-down-circle fw-bold"></i> <u>Contact Me</u></a>
 						</div>
 					</div>
 				</div>
@@ -80,24 +99,34 @@
 
 			<div class="content-wrap p-0">
 
-				<div class="section mb-0 pt-3 pb-0" style="background-color: #F4F4F4; margin-top: 150px; overflow: visible;">
-					<div class="shape-divider" data-shape="wave" data-height="150" data-outside="true" data-flip-vertical="true" data-fill="#F4F4F4"></div>
+				<div class="section mb-0 pt-3 pb-0"
+					style="background-color: #F4F4F4; margin-top: 150px; overflow: visible;">
+					<div class="shape-divider" data-shape="wave" data-height="150" data-outside="true"
+						data-flip-vertical="true" data-fill="#F4F4F4"></div>
 					<div class="container">
 						<div class="row justify-content-center text-center mt-5">
 							<div class="col-lg-6">
 								<div>
-									<h3 class="fw-bolder h1 mb-4">Graphics Designer & Frontend Developer, Based in <span class="gradient-text gradient-horizon">Berlin, Germany. Since 2009.</span></h3>
-									<p class="mb-5 lead text-black-50 fw-extralight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Minus, harum porro unde quisquam! Minima vitae neque hic vel porro quidem totam.</p>
+									<h3 class="fw-bolder h1 mb-4">Graphics Designer & Frontend Developer, Based in <span
+											class="gradient-text gradient-horizon">Berlin, Germany. Since 2009.</span>
+									</h3>
+									<p class="mb-5 lead text-black-50 fw-extralight">Lorem ipsum dolor sit amet,
+										consectetur adipisicing elit. Earum, atque. Minus, harum porro unde quisquam!
+										Minima vitae neque hic vel porro quidem totam.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="d-flex justify-content-center position-relative">
-						<div class="parallax min-vh-75" style="background-image: url('@/assets/freelancer/images/me.jpg'); background-size: cover; background-position: center center;" data-bottom-top="width: 40vw" data-center-top="width: 100vw;">
+						<div class="parallax min-vh-75"
+							style="background-size: cover; background-position: center center; width: 100vw;"
+							:style="meStyle" data-bottom-top="width: 40vw" data-center-top="width: 100vw;">
 							<div class="row align-items-center justify-content-center h-100">
 								<div class="col-auto text-center">
-									<a href="#" class="display-4 fw-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#dribbble</u></a>
-									<a href="#" class="display-4 fw-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#behance</u></a>
+									<a href="#"
+										class="display-4 fw-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#dribbble</u></a>
+									<a href="#"
+										class="display-4 fw-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#behance</u></a>
 								</div>
 							</div>
 						</div>
@@ -109,21 +138,24 @@
 					<div class="row col-mb-30 mt-5">
 						<div class="col-md-4">
 							<div class="d-flex align-items-center justify-content-center">
-								<div class="counter counter-xlarge text-dark fw-bolder"><span data-from="1" data-to="15" data-refresh-interval="2" data-speed="600"></span></div>
+								<div class="counter counter-xlarge text-dark fw-bolder"><span data-from="1" data-to="15"
+										data-refresh-interval="2" data-speed="600"></span></div>
 								<span>+ Years Of<br>Experience.</span>
 							</div>
 						</div>
 
 						<div class="col-md-4">
 							<div class="d-flex align-items-center justify-content-center">
-								<div class="counter counter-xlarge text-dark fw-bolder"><span data-from="4" data-to="83" data-refresh-interval="50" data-speed="1500"></span></div>
+								<div class="counter counter-xlarge text-dark fw-bolder"><span data-from="4" data-to="83"
+										data-refresh-interval="50" data-speed="1500"></span></div>
 								<span>% of Works <br>Completed.</span>
 							</div>
 						</div>
 
 						<div class="col-md-4">
 							<div class="d-flex align-items-center justify-content-center">
-								<div class="counter counter-xlarge text-dark fw-bolder"><span data-from="5" data-to="100" data-refresh-interval="30" data-speed="1200"></span></div>
+								<div class="counter counter-xlarge text-dark fw-bolder"><span data-from="5"
+										data-to="100" data-refresh-interval="30" data-speed="1200"></span></div>
 								<span>% Satisfied<br>Customers.</span>
 							</div>
 						</div>
@@ -137,12 +169,16 @@
 							<div class="col-lg-4">
 								<h3 class="fw-bolder h1 mb-4">What Some of my Clients Say</h3>
 
-								<div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget mt-5" data-margin="0" data-items="1" data-pagi="true" data-nav="false">
+								<div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget mt-5"
+									data-margin="0" data-items="1" data-pagi="true" data-nav="false">
 
 									<div class="oc-item">
-										<p class="position-relative font-secondary fst-normal fs-5 mb-4">Quickly redefine resource sucking web services after exceptional customer service. Professionally coordinate focused platforms before visionary architectures.</p>
+										<p class="position-relative font-secondary fst-normal fs-5 mb-4">Quickly
+											redefine resource sucking web services after exceptional customer service.
+											Professionally coordinate focused platforms before visionary architectures.
+										</p>
 										<div class="testi-meta d-flex align-items-center">
-											<img src="@/assets/freelancer/images/testi/face.jpg" alt="Face" width="30">
+											<img src="../assets/freelancer/images/testi/face.jpg" alt="Face" width="30">
 											<div>
 												<h4 class="h6 mb-0 fw-medium">John Doe</h4>
 												<small class="op-05">XYZ Inc.</small>
@@ -151,9 +187,12 @@
 									</div>
 
 									<div class="oc-item">
-										<p class="position-relative font-secondary fst-normal fs-5 mb-4">Dramatically mesh user friendly solutions whereas sticky human capital. Assertively fashion impactful "outside the box".</p>
+										<p class="position-relative font-secondary fst-normal fs-5 mb-4">Dramatically
+											mesh user friendly solutions whereas sticky human capital. Assertively
+											fashion impactful "outside the box".</p>
 										<div class="testi-meta d-flex align-items-center">
-											<img src="@/assets/freelancer/images/testi/face2.jpg" alt="Face" width="30">
+											<img src="../assets/freelancer/images/testi/face2.jpg" alt="Face"
+												width="30">
 											<div>
 												<h4 class="h6 mb-0 fw-medium">John Doe</h4>
 												<small class="op-05">XYZ Inc.</small>
@@ -162,9 +201,11 @@
 									</div>
 
 									<div class="oc-item">
-										<p class="position-relative font-secondary fst-normal fs-5 mb-4">Progressively productivate customer directed meta-services without magnetic bandwidth.</p>
+										<p class="position-relative font-secondary fst-normal fs-5 mb-4">Progressively
+											productivate customer directed meta-services without magnetic bandwidth.</p>
 										<div class="testi-meta d-flex align-items-center">
-											<img src="@/assets/freelancer/images/testi/face3.jpg" alt="Face" width="30">
+											<img src="../assets/freelancer/images/testi/face3.jpg" alt="Face"
+												width="30">
 											<div>
 												<h4 class="h6 mb-0 fw-medium">John Doe</h4>
 												<small class="op-05">XYZ Inc.</small>
@@ -175,7 +216,7 @@
 							</div>
 
 							<div class="col-lg-6">
-								<img src="@/assets/freelancer/images/testi/bg.svg" alt="">
+								<img src="../assets/freelancer/images/testi/bg.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -193,7 +234,9 @@
 								</div>
 							</div>
 							<div class="col-auto">
-								<a href="demo-freelancer-works.html" class="button button-dark button-border rounded-pill">View All Works <i class="bi-arrow-right"></i></a>
+								<a href="demo-freelancer-works.html"
+									class="button button-dark button-border rounded-pill">View All Works <i
+										class="bi-arrow-right"></i></a>
 							</div>
 						</div>
 
@@ -203,12 +246,16 @@
 									<div class="portfolio-image">
 										<img src="@/assets/freelancer/images/works/1.jpg" alt="Portfoio Item">
 										<div class="bg-overlay">
-											<div class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
+											<div
+												class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
 												<h3 class="mb-0 mt-1">Niche Demo Store</h3>
 												<h5>Media, Icons</h5>
 											</div>
 											<div class="bg-overlay-content align-items-start justify-content-end p-4">
-												<div class="overlay-trigger-icon bg-dark text-white" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="bi-link-45deg"></i></div>
+												<div class="overlay-trigger-icon bg-dark text-white"
+													data-hover-animate="fadeInDownSmall"
+													data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i
+														class="bi-link-45deg"></i></div>
 											</div>
 										</div>
 									</div>
@@ -220,12 +267,16 @@
 									<div class="portfolio-image">
 										<img src="@/assets/freelancer/images/works/2.jpg" alt="Portfoio Item">
 										<div class="bg-overlay">
-											<div class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
+											<div
+												class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
 												<h3 class="mb-0 mt-1">Niche Demo Yoga</h3>
 												<h5>Media, Icons</h5>
 											</div>
 											<div class="bg-overlay-content align-items-start justify-content-end p-4">
-												<div class="overlay-trigger-icon bg-dark text-white" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="bi-link-45deg"></i></div>
+												<div class="overlay-trigger-icon bg-dark text-white"
+													data-hover-animate="fadeInDownSmall"
+													data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i
+														class="bi-link-45deg"></i></div>
 											</div>
 										</div>
 									</div>
@@ -237,12 +288,16 @@
 									<div class="portfolio-image">
 										<img src="@/assets/freelancer/images/works/3.jpg" alt="Portfoio Item">
 										<div class="bg-overlay">
-											<div class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
+											<div
+												class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
 												<h3 class="mb-0 mt-1">Niche Demo Hostel</h3>
 												<h5>Media, Icons</h5>
 											</div>
 											<div class="bg-overlay-content align-items-start justify-content-end p-4">
-												<div class="overlay-trigger-icon bg-dark text-white" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="bi-link-45deg"></i></div>
+												<div class="overlay-trigger-icon bg-dark text-white"
+													data-hover-animate="fadeInDownSmall"
+													data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i
+														class="bi-link-45deg"></i></div>
 											</div>
 										</div>
 									</div>
@@ -254,12 +309,16 @@
 									<div class="portfolio-image">
 										<img src="@/assets/freelancer/images/works/4.jpg" alt="Portfoio Item">
 										<div class="bg-overlay">
-											<div class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
+											<div
+												class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
 												<h3 class="mb-0 mt-1">Niche Demo Conference</h3>
 												<h5>Media, Icons</h5>
 											</div>
 											<div class="bg-overlay-content align-items-start justify-content-end p-4">
-												<div class="overlay-trigger-icon bg-dark text-white" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="bi-link-45deg"></i></div>
+												<div class="overlay-trigger-icon bg-dark text-white"
+													data-hover-animate="fadeInDownSmall"
+													data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i
+														class="bi-link-45deg"></i></div>
 											</div>
 										</div>
 									</div>
@@ -278,87 +337,113 @@
 						<div class="row align-items-end mb-5">
 							<div class="col-lg-5 offset-lg-1">
 								<h3 class="fw-bolder h1">The ways I can help you</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima error ducimus recusandae sed ipsam, cumque optio reiciendis nihil labore!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima error ducimus
+									recusandae sed ipsam, cumque optio reiciendis nihil labore!</p>
 							</div>
 						</div>
 
-						<div  class="row gutter-50 mb-5 align-items-stretch">
+						<div class="row gutter-50 mb-5 align-items-stretch">
 							<div class="col-md-4">
-								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #E2E8D8;">
+								<div class="card d-flex align-items-end flex-column p-4 border-0"
+									style="background-color: #E2E8D8;">
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
 											<div class="d-flex align-items-center mb-4">
-												<img src="@/assets/freelancer/images/icons/sketch.svg" height="50" alt="Image">
-												<img src="@/assets/freelancer/images/icons/xd.png" height="50" alt="Image" class="ms-3">
+												<img src="@/assets/freelancer/images/icons/sketch.svg" height="50"
+													alt="Image">
+												<img src="@/assets/freelancer/images/icons/xd.png" height="50"
+													alt="Image" class="ms-3">
 											</div>
 											<h3 class="card-title fw-bolder">Website Design</h3>
-											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate
+												interoperable process improvements after team building testing
+												procedures. Distinctively architect resource-leveling portals.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-md-4">
-								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #C2DFEC;">
+								<div class="card d-flex align-items-end flex-column p-4 border-0"
+									style="background-color: #C2DFEC;">
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="demos/seo/images/icons/social.svg" alt="Image" class="mb-4" height="50">
+											<img src="@/assets/demos/seo/images/icons/social.svg" alt="Image"
+												class="mb-4" height="50">
 											<h3 class="card-title fw-bolder">Responsive Website</h3>
-											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate
+												interoperable process improvements after team building testing
+												procedures. Distinctively architect resource-leveling portals.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-md-4">
-								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #FADCE4">
+								<div class="card d-flex align-items-end flex-column p-4 border-0"
+									style="background-color: #FADCE4">
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="@/assets/freelancer/images/icons/wp.png" height="50" alt="Image" class="mb-4">
+											<img src="@/assets/freelancer/images/icons/wp.png" height="50" alt="Image"
+												class="mb-4">
 											<h3 class="card-title fw-bolder">WordPress Website</h3>
-											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate
+												interoperable process improvements after team building testing
+												procedures. Distinctively architect resource-leveling portals.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-md-4">
-								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #E4E4E4">
+								<div class="card d-flex align-items-end flex-column p-4 border-0"
+									style="background-color: #E4E4E4">
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="demos/seo/images/icons/seo.svg" height="50" alt="Image" class="mb-4">
+											<img src="@/assets/demos/seo/images/icons/seo.svg" height="50" alt="Image"
+												class="mb-4">
 											<h3 class="card-title fw-bolder">SEO Optimised</h3>
-											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate
+												interoperable process improvements after team building testing
+												procedures. Distinctively architect resource-leveling portals.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-md-4">
-								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #E5E3CE;">
+								<div class="card d-flex align-items-end flex-column p-4 border-0"
+									style="background-color: #E5E3CE;">
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="@/assets/freelancer/images/icons/hosting.svg" height="50" alt="Image" class="mb-4">
+											<img src="@/assets/freelancer/images/icons/hosting.svg" height="50"
+												alt="Image" class="mb-4">
 											<h3 class="card-title fw-bolder">Web Hosting</h3>
-											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate
+												interoperable process improvements after team building testing
+												procedures. Distinctively architect resource-leveling portals.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-md-4">
-								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #C9D6CF">
+								<div class="card d-flex align-items-end flex-column p-4 border-0"
+									style="background-color: #C9D6CF">
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="@/assets/freelancer/images/icons/plugins.png" height="50" alt="Image" class="mb-4">
+											<img src="@/assets/freelancer/images/icons/plugins.png" height="50"
+												alt="Image" class="mb-4">
 											<h3 class="card-title fw-bolder">Plugin Development</h3>
-											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate
+												interoperable process improvements after team building testing
+												procedures. Distinctively architect resource-leveling portals.</p>
 										</div>
 									</div>
 								</div>
@@ -372,26 +457,47 @@
 						<div class="row align-items-end">
 							<div class="col-lg-6 offset-lg-1">
 								<h3 class="fw-bolder h1">We value our relationships</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima error ducimus recusandae sed ipsam, cumque optio reiciendis nihil labore!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima error ducimus
+									recusandae sed ipsam, cumque optio reiciendis nihil labore!</p>
 							</div>
 						</div>
 						<div class="section rounded-10 p-6 my-4" style="background-color: #F1F1F1;">
 							<div class="row justify-content-between align-items-center col-mb-50">
-								<div class="col-md-3 col-6 text-center"><img src="@/assets/freelancer/images/clients/amazon.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 text-center"><img src="@/assets/freelancer/images/clients/netflix.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 text-center"><img src="@/assets/freelancer/images/clients/google.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 text-center"><img src="@/assets/freelancer/images/clients/paypal.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 text-center"><img src="@/assets/freelancer/images/clients/skype.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 text-center"><img src="@/assets/freelancer/images/clients/ps.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 text-center"><img src="@/assets/freelancer/images/clients/slack.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 text-center"><img src="@/assets/freelancer/images/clients/applemusic.svg" alt="Clients"></div>
+								<div class="col-md-3 col-6 text-center"><img
+										src="@/assets/freelancer/images/clients/amazon.svg" alt="Clients"></div>
+								<div class="col-md-3 col-6 text-center"><img
+										src="@/assets/freelancer/images/clients/netflix.svg" alt="Clients"></div>
+								<div class="col-md-3 col-6 text-center"><img
+										src="@/assets/freelancer/images/clients/google.svg" alt="Clients"></div>
+								<div class="col-md-3 col-6 text-center"><img
+										src="@/assets/freelancer/images/clients/paypal.svg" alt="Clients"></div>
+								<div class="col-md-3 col-6 text-center"><img
+										src="@/assets/freelancer/images/clients/skype.svg" alt="Clients"></div>
+								<div class="col-md-3 col-6 text-center"><img
+										src="@/assets/freelancer/images/clients/ps.svg" alt="Clients"></div>
+								<div class="col-md-3 col-6 text-center"><img
+										src="@/assets/freelancer/images/clients/slack.svg" alt="Clients"></div>
+								<div class="col-md-3 col-6 text-center"><img
+										src="@/assets/freelancer/images/clients/applemusic.svg" alt="Clients"></div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="section m-0" style="background: #f1efe5 url('@/assets/freelancer/images/bg.svg') no-repeat right center; padding-top: 240px">
-					<div class="shape-divider" data-shape="wave-4" data-height="150" id="shape-divider-6017"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 140" preserveAspectRatio="none"><path class="shape-divider-fill" fill="#F8F7F2" d="M0 51.76c36.21-2.25 77.57-3.58 126.42-3.58 320 0 320 57 640 57 271.15 0 312.58-40.91 513.58-53.4V0H0z" opacity="0.3"></path><path class="shape-divider-fill" d="M0 24.31c43.46-5.69 94.56-9.25 158.42-9.25 320 0 320 89.24 640 89.24 256.13 0 307.28-57.16 481.58-80V0H0z" opacity="0.5"></path><path class="shape-divider-fill" d="M0 0v3.4C28.2 1.6 59.4.59 94.42.59c320 0 320 84.3 640 84.3 285 0 316.17-66.85 545.58-81.49V0z"></path></svg></div>
+				<div class="section m-0"
+					style="background: #f1efe5 url('@/assets/freelancer/images/bg.png') no-repeat right center; padding-top: 240px">
+					<div class="shape-divider" data-shape="wave-4" data-height="150" id="shape-divider-6017"><svg
+							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 140" preserveAspectRatio="none">
+							<path class="shape-divider-fill" fill="#F8F7F2"
+								d="M0 51.76c36.21-2.25 77.57-3.58 126.42-3.58 320 0 320 57 640 57 271.15 0 312.58-40.91 513.58-53.4V0H0z"
+								opacity="0.3"></path>
+							<path class="shape-divider-fill"
+								d="M0 24.31c43.46-5.69 94.56-9.25 158.42-9.25 320 0 320 89.24 640 89.24 256.13 0 307.28-57.16 481.58-80V0H0z"
+								opacity="0.5"></path>
+							<path class="shape-divider-fill"
+								d="M0 0v3.4C28.2 1.6 59.4.59 94.42.59c320 0 320 84.3 640 84.3 285 0 316.17-66.85 545.58-81.49V0z">
+							</path>
+						</svg></div>
 					<div class="container">
 						<div class="row align-items-center">
 							<div class="col-lg-5">
@@ -400,53 +506,71 @@
 
 									<div class="accordion-header">
 										<div class="accordion-icon">
-											<i class="accordion-closed uil uil-plus color gradient-text gradient-red-yellow"></i>
-											<i class="accordion-open uil uil-minus color gradient-text gradient-red-yellow"></i>
+											<i
+												class="accordion-closed uil uil-plus color gradient-text gradient-red-yellow"></i>
+											<i
+												class="accordion-open uil uil-minus color gradient-text gradient-red-yellow"></i>
 										</div>
 										<div class="accordion-title">
 											Design &amp; Development Process
 										</div>
 									</div>
-									<div class="accordion-content">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
+									<div class="accordion-content">Donec sed odio dui. Nulla vitae elit libero, a
+										pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer
+										posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
 
 									<div class="accordion-header">
 										<div class="accordion-icon">
-											<i class="accordion-closed uil uil-plus color gradient-text gradient-red-yellow"></i>
-											<i class="accordion-open uil uil-minus color gradient-text gradient-red-yellow"></i>
+											<i
+												class="accordion-closed uil uil-plus color gradient-text gradient-red-yellow"></i>
+											<i
+												class="accordion-open uil uil-minus color gradient-text gradient-red-yellow"></i>
 										</div>
 										<div class="accordion-title">
 											What is Our Refund Policy
 										</div>
 									</div>
-									<div class="accordion-content">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</div>
+									<div class="accordion-content">Integer posuere erat a ante venenatis dapibus posuere
+										velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum
+										nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</div>
 
 									<div class="accordion-header" id="id-accordion-3">
 										<div class="accordion-icon">
-											<i class="accordion-closed uil uil-plus color gradient-text gradient-red-yellow"></i>
-											<i class="accordion-open uil uil-minus color gradient-text gradient-red-yellow"></i>
+											<i
+												class="accordion-closed uil uil-plus color gradient-text gradient-red-yellow"></i>
+											<i
+												class="accordion-open uil uil-minus color gradient-text gradient-red-yellow"></i>
 										</div>
 										<div class="accordion-title">
 											Our Processing Time
 										</div>
 									</div>
-									<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
+									<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id
+										elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis
+										mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.
+									</div>
 
 									<div class="accordion-header" id="id-accordion-4">
 										<div class="accordion-icon">
-											<i class="accordion-closed uil uil-plus color gradient-text gradient-red-yellow"></i>
-											<i class="accordion-open uil uil-minus color gradient-text gradient-red-yellow"></i>
+											<i
+												class="accordion-closed uil uil-plus color gradient-text gradient-red-yellow"></i>
+											<i
+												class="accordion-open uil uil-minus color gradient-text gradient-red-yellow"></i>
 										</div>
 										<div class="accordion-title">
 											How do I Pay and Payment Method
 										</div>
 									</div>
-									<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
+									<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id
+										elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis
+										mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.
+									</div>
 
 								</div>
 							</div>
 
 							<div class="col-lg-7">
-								<img src="demos/freelancer/images/ask.svg" alt="FAQs" class="px-5">
+								<img src="@/assets/demos/freelancer_images/ask.svg" alt="FAQs" class="px-5">
 							</div>
 						</div>
 					</div>
@@ -471,18 +595,24 @@
 							<div class="widget">
 
 								<h3 class="h1 mb-5">Got a Project?<br>Let's Talk!</h3>
-								<span class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quisquam aspernatur vero voluptas.</span>
-								<a href="mailto:noreply@canvas.com" class="h4 text-dark mt-5 mb-4 d-block"><u>noreply@canvas.com</u> <i class="bi-arrow-right position-relative ms-2" style="top: 3px"></i></a>
+								<span class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Nobis quisquam aspernatur vero voluptas.</span>
+								<a href="mailto:noreply@canvas.com"
+									class="h4 text-dark mt-5 mb-4 d-block"><u>noreply@canvas.com</u> <i
+										class="bi-arrow-right position-relative ms-2" style="top: 3px"></i></a>
 								<div>
-									<a href="http://facebook.com/semicolonweb" class="social-icon si-small text-light bg-facebook" target="_blank">
+									<a href="http://facebook.com/semicolonweb"
+										class="social-icon si-small text-light bg-facebook" target="_blank">
 										<i class="fa-brands fa-facebook-f"></i>
 										<i class="fa-brands fa-facebook-f"></i>
 									</a>
-									<a href="http://instagram.com/semicolonweb" class="social-icon si-small text-light bg-instagram" target="_blank">
+									<a href="http://instagram.com/semicolonweb"
+										class="social-icon si-small text-light bg-instagram" target="_blank">
 										<i class="bi-instagram"></i>
 										<i class="bi-instagram"></i>
 									</a>
-									<a href="http://youtube.com/semicolonweb" class="social-icon si-small text-light bg-youtube" target="_blank">
+									<a href="http://youtube.com/semicolonweb"
+										class="social-icon si-small text-light bg-youtube" target="_blank">
 										<i class="fa-brands fa-youtube"></i>
 										<i class="fa-brands fa-youtube"></i>
 									</a>
@@ -501,25 +631,33 @@
 
 								<div class="form-result"></div>
 
-								<form class="row mb-0" id="landing-enquiry" action="include/form.php" method="post" enctype="multipart/form-data">
+								<form class="row mb-0" id="landing-enquiry" action="include/form.php" method="post"
+									enctype="multipart/form-data">
 									<div class="form-process"></div>
 									<div class="col-12 form-group mb-4">
 										<label>What is Your Name:</label>
-										<input type="text" name="landing-enquiry-name" id="landing-enquiry-name" class="form-control border-form-control required" value="">
+										<input type="text" name="landing-enquiry-name" id="landing-enquiry-name"
+											class="form-control border-form-control required" value="">
 									</div>
 									<div class="col-12 form-group mb-4">
 										<label>Your Email Address Please:</label>
-										<input type="email" name="landing-enquiry-email" id="landing-enquiry-email" class="form-control border-form-control required" value="">
+										<input type="email" name="landing-enquiry-email" id="landing-enquiry-email"
+											class="form-control border-form-control required" value="">
 									</div>
 									<div class="col-12 form-group mb-4">
 										<label>Tell more about your Project:</label>
-										<textarea name="landing-enquiry-additional-requirements" id="landing-enquiry-additional-requirements" class="form-control border-form-control" cols="10" rows="3"></textarea>
+										<textarea name="landing-enquiry-additional-requirements"
+											id="landing-enquiry-additional-requirements"
+											class="form-control border-form-control" cols="10" rows="3"></textarea>
 									</div>
 									<div class="col-12 d-none">
-										<input type="text" id="landing-enquiry-botcheck" name="landing-enquiry-botcheck" value="">
+										<input type="text" id="landing-enquiry-botcheck" name="landing-enquiry-botcheck"
+											value="">
 									</div>
 									<div class="col-12">
-										<button type="submit" name="landing-enquiry-submit" class="button h-translatey-3 bg-dark rounded-pill"><i class="bi-arrow-right m-0"></i></button>
+										<button type="submit" name="landing-enquiry-submit"
+											class="button h-translatey-3 bg-dark rounded-pill"><i
+												class="bi-arrow-right m-0"></i></button>
 									</div>
 
 									<input type="hidden" name="prefix" value="landing-enquiry-">
@@ -535,16 +673,50 @@
 		</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->
+	<div id="gotoTop" class="uil uil-angle-double-up bg-white text-dark rounded-circle shadow"></div>
 
 </template>
 
 <script>
 // @ is an alias to /src
+import skrollr from '@/assets/js/skrollr.min.js';
+
 
 
 export default {
-  name: 'HomeView',
-  components: {
-  }
+	name: 'HomeView',
+	components: {
+	},
+	computed: {
+		backgroundStyle() {
+			return {
+				background: `#FFF url(${require('@/assets/freelancer/images/hero-bg.png')}) repeat top center`,
+				backgroundSize: 'cover'
+			};
+		},
+		meStyle() {
+			return {
+				backgroundImage: `url(${require('@/assets/freelancer/images/me.jpg')})`
+			};
+		}
+	},
+	created() {
+
+		skrollr.init({ forceHeight: false });
+
+		jQuery('#oc-services').owlCarousel({
+			items: 1,
+			margin: 30,
+			nav: false,
+			dots: true,
+			smartSpeed: 400,
+			responsive: {
+				576: { stagePadding: 30, items: 1 },
+				768: { stagePadding: 30, items: 2 },
+				991: { stagePadding: 150, items: 3 },
+				1200: { stagePadding: 150, items: 3 }
+			},
+		});
+	},
 }
 </script>

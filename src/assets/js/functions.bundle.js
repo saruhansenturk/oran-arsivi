@@ -1,4 +1,11 @@
 // import { SEMICOLON } from "semicolon";
+/* eslint-disable no-undef */
+/* eslint-disable no-useless-escape */
+/* eslint-disable no-empty */
+/* eslint-disable no-control-regex */
+/* eslint-disable no-prototype-builtins */
+/* eslint-disable no-self-assign */
+/* eslint-disable no-cond-assign */
 
 if (typeof jQuery !== "undefined") {
     var $ = jQuery.noConflict();
@@ -9,6 +16,9 @@ SEMICOLON.Core = SEMICOLON.Core || {};
 SEMICOLON.Base = SEMICOLON.Base || {};
 SEMICOLON.Modules = SEMICOLON.Modules || {};
 SEMICOLON.Mobile = SEMICOLON.Mobile || {};
+
+var CNVS = CNVS || {};
+
 
 (function (global, factory) {
     typeof exports === "object" && typeof module !== "undefined"
@@ -869,7 +879,7 @@ SEMICOLON.Mobile = SEMICOLON.Mobile || {};
             },
 
             goToTop: function () {
-                CNVS.GoToTop.init("#gotoTop");
+                CNVS?.GoToTop.init("#gotoTop");
             },
 
             stickFooterOnSmall: function () {
