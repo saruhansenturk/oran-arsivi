@@ -1,21 +1,6 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-useless-escape */
-/* eslint-disable no-empty */
-/* eslint-disable no-control-regex */
-/* eslint-disable no-prototype-builtins */
-/* eslint-disable no-self-assign */
-/* eslint-disable no-cond-assign */
-
 if( typeof jQuery !== 'undefined' ) {
 	var $ = jQuery.noConflict();
 }
-
-
-// var SEMICOLON = SEMICOLON || {};
-// SEMICOLON.Core = SEMICOLON.Core || {};
-// SEMICOLON.Base = SEMICOLON.Base || {};
-// SEMICOLON.Modules = SEMICOLON.Modules || {};
-// SEMICOLON.Mobile = SEMICOLON.Mobile || {};
 
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -1329,8 +1314,3 @@ if( typeof jQuery !== 'undefined' ) {
 
 	return {};
 })));
-
-export default {
-	CNVS,
-	SEMICOLON
-};

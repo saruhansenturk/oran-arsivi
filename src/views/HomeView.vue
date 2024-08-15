@@ -1,7 +1,7 @@
 <template>
 	<!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper">
+	<div id="page-transition-wrap">
 
 		<!-- Header
 		============================================= -->
@@ -15,8 +15,8 @@
 						<div id="logo">
 							<a href="demo-freelancer.html">
 								<img class="logo-default"
-									srcset="@/assets/freelancer/images/logo.png, @/assets/freelancer/images/logo@2x.png 2x"
-									src="@/assets/freelancer/images/logo@2x.png" alt="Canvas Logo">
+									srcset="@/assets/demos/freelancer/images/logo.png, @/assets/demos/freelancer/images/logo@2x.png 2x"
+									src="@/assets/demos/freelancer/images/logo@2x.png" alt="Canvas Logo">
 							</a>
 						</div><!-- #logo end -->
 
@@ -178,7 +178,8 @@
 											Professionally coordinate focused platforms before visionary architectures.
 										</p>
 										<div class="testi-meta d-flex align-items-center">
-											<img src="../assets/freelancer/images/testi/face.jpg" alt="Face" width="30">
+											<img src="../assets/demos/freelancer/images/testi/bg.svg" alt="Face"
+												width="30">
 											<div>
 												<h4 class="h6 mb-0 fw-medium">John Doe</h4>
 												<small class="op-05">XYZ Inc.</small>
@@ -191,7 +192,7 @@
 											mesh user friendly solutions whereas sticky human capital. Assertively
 											fashion impactful "outside the box".</p>
 										<div class="testi-meta d-flex align-items-center">
-											<img src="../assets/freelancer/images/testi/face2.jpg" alt="Face"
+											<img src="../assets/demos/freelancer/images/testi/face2.jpg" alt="Face"
 												width="30">
 											<div>
 												<h4 class="h6 mb-0 fw-medium">John Doe</h4>
@@ -204,7 +205,7 @@
 										<p class="position-relative font-secondary fst-normal fs-5 mb-4">Progressively
 											productivate customer directed meta-services without magnetic bandwidth.</p>
 										<div class="testi-meta d-flex align-items-center">
-											<img src="../assets/freelancer/images/testi/face3.jpg" alt="Face"
+											<img src="../assets/demos/freelancer/images/testi/face3.jpg" alt="Face"
 												width="30">
 											<div>
 												<h4 class="h6 mb-0 fw-medium">John Doe</h4>
@@ -216,7 +217,7 @@
 							</div>
 
 							<div class="col-lg-6">
-								<img src="../assets/freelancer/images/testi/bg.png" alt="">
+								<img src="@/assets/demos/freelancer/images/testi/bg.svg" alt="">
 							</div>
 						</div>
 					</div>
@@ -244,7 +245,7 @@
 							<div class="col-lg-6 h-translatey-3 tf-ts">
 								<a href="demo-store.html" class="portfolio-item" target="_blank">
 									<div class="portfolio-image">
-										<img src="@/assets/freelancer/images/works/1.jpg" alt="Portfoio Item">
+										<img src="@/assets/demos/freelancer/images/works/1.jpg" alt="Portfoio Item">
 										<div class="bg-overlay">
 											<div
 												class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
@@ -265,7 +266,7 @@
 							<div class="col-lg-6 h-translatey-3 tf-ts">
 								<a href="demo-yoga.html" class="portfolio-item" target="_blank">
 									<div class="portfolio-image">
-										<img src="@/assets/freelancer/images/works/2.jpg" alt="Portfoio Item">
+										<img src="@/assets/demos/freelancer/images/works/2.jpg" alt="Portfoio Item">
 										<div class="bg-overlay">
 											<div
 												class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
@@ -286,7 +287,7 @@
 							<div class="col-lg-6 h-translatey-3 tf-ts">
 								<a href="demo-hostel.html" class="portfolio-item" target="_blank">
 									<div class="portfolio-image">
-										<img src="@/assets/freelancer/images/works/3.jpg" alt="Portfoio Item">
+										<img src="@/assets/demos/freelancer/images/works/3.jpg" alt="Portfoio Item">
 										<div class="bg-overlay">
 											<div
 												class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
@@ -307,7 +308,7 @@
 							<div class="col-lg-6 h-translatey-3 tf-ts">
 								<a href="demo-conference.html" class="portfolio-item" target="_blank">
 									<div class="portfolio-image">
-										<img src="@/assets/freelancer/images/works/4.jpg" alt="Portfoio Item">
+										<img src="@/assets/demos/freelancer/images/works/4.jpg" alt="Portfoio Item">
 										<div class="bg-overlay">
 											<div
 												class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
@@ -350,9 +351,9 @@
 									<div class="mt-auto">
 										<div class="card-body">
 											<div class="d-flex align-items-center mb-4">
-												<img src="@/assets/freelancer/images/icons/sketch.svg" height="50"
-													alt="Image">
-												<img src="@/assets/freelancer/images/icons/xd.png" height="50"
+												<img src="@/assets/demos/freelancer/images/icons//sketch.svg"
+													height="50" alt="Image">
+												<img src="@/assets/demos/freelancer/images/icons/xd.png" height="50"
 													alt="Image" class="ms-3">
 											</div>
 											<h3 class="card-title fw-bolder">Website Design</h3>
@@ -387,8 +388,8 @@
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="@/assets/freelancer/images/icons/wp.png" height="50" alt="Image"
-												class="mb-4">
+											<img src="@/assets/demos/freelancer/images/icons/wp.png" height="50"
+												alt="Image" class="mb-4">
 											<h3 class="card-title fw-bolder">WordPress Website</h3>
 											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate
 												interoperable process improvements after team building testing
@@ -421,7 +422,7 @@
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="@/assets/freelancer/images/icons/hosting.svg" height="50"
+											<img src="@/assets/demos/freelancer/images/icons/hosting.svg" height="50"
 												alt="Image" class="mb-4">
 											<h3 class="card-title fw-bolder">Web Hosting</h3>
 											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate
@@ -438,7 +439,7 @@
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="@/assets/freelancer/images/icons/plugins.png" height="50"
+											<img src="@/assets/demos/freelancer/images/icons/plugins.png" height="50"
 												alt="Image" class="mb-4">
 											<h3 class="card-title fw-bolder">Plugin Development</h3>
 											<p class="card-text mb-0 mt-2 fw-light">Objectively productivate
@@ -464,21 +465,22 @@
 						<div class="section rounded-10 p-6 my-4" style="background-color: #F1F1F1;">
 							<div class="row justify-content-between align-items-center col-mb-50">
 								<div class="col-md-3 col-6 text-center"><img
-										src="@/assets/freelancer/images/clients/amazon.svg" alt="Clients"></div>
+										src="@/assets/demos/freelancer/images/clients/amazon.svg" alt="Clients"></div>
 								<div class="col-md-3 col-6 text-center"><img
-										src="@/assets/freelancer/images/clients/netflix.svg" alt="Clients"></div>
+										src="@/assets/demos/freelancer/images/clients/netflix.svg" alt="Clients"></div>
 								<div class="col-md-3 col-6 text-center"><img
-										src="@/assets/freelancer/images/clients/google.svg" alt="Clients"></div>
+										src="@/assets/demos/freelancer/images/clients/google.svg" alt="Clients"></div>
 								<div class="col-md-3 col-6 text-center"><img
-										src="@/assets/freelancer/images/clients/paypal.svg" alt="Clients"></div>
+										src="@/assets/demos/freelancer/images/clients/paypal.svg" alt="Clients"></div>
 								<div class="col-md-3 col-6 text-center"><img
-										src="@/assets/freelancer/images/clients/skype.svg" alt="Clients"></div>
+										src="@/assets/demos/freelancer/images/clients/skype.svg" alt="Clients"></div>
 								<div class="col-md-3 col-6 text-center"><img
-										src="@/assets/freelancer/images/clients/ps.svg" alt="Clients"></div>
+										src="@/assets/demos/freelancer/images/clients/ps.svg" alt="Clients"></div>
 								<div class="col-md-3 col-6 text-center"><img
-										src="@/assets/freelancer/images/clients/slack.svg" alt="Clients"></div>
+										src="@/assets/demos/freelancer/images/clients/slack.svg" alt="Clients"></div>
 								<div class="col-md-3 col-6 text-center"><img
-										src="@/assets/freelancer/images/clients/applemusic.svg" alt="Clients"></div>
+										src="@/assets/demos/freelancer/images/clients/applemusic.svg" alt="Clients">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -570,7 +572,7 @@
 							</div>
 
 							<div class="col-lg-7">
-								<img src="@/assets/demos/freelancer_images/ask.svg" alt="FAQs" class="px-5">
+								<img src="@/assets/demos/freelancer/images/ask.svg" alt="FAQs" class="px-5">
 							</div>
 						</div>
 					</div>
@@ -679,9 +681,11 @@
 
 <script>
 // @ is an alias to /src
-import skrollr from '@/assets/js/skrollr.min.js';
-
-
+import skrollr from '@/assets/js/skrollr.js';
+import jQuery from 'jquery';
+// su an bunu kullandigim yerde import etmem gerekli. sayfadaki elementler  yuklenmeden calisirsa hata verir. component ayirinca servisten alinmaya calisicaz
+import '@/assets/js/functions.bundle.js'
+import '@/assets/js/plugins.min.js';
 
 export default {
 	name: 'HomeView',
@@ -690,33 +694,67 @@ export default {
 	computed: {
 		backgroundStyle() {
 			return {
-				background: `#FFF url(${require('@/assets/freelancer/images/hero-bg.png')}) repeat top center`,
+				background: `#FFF url(${require('@/assets/demos/freelancer/images/hero-bg.svg')}) repeat top center`,
 				backgroundSize: 'cover'
 			};
 		},
 		meStyle() {
 			return {
-				backgroundImage: `url(${require('@/assets/freelancer/images/me.jpg')})`
+				backgroundImage: `url(${require('@/assets/demos/freelancer/images/me.jpg')})`
 			};
 		}
 	},
 	created() {
+	},
+	mounted() {
+skrollr.init()
+		if (typeof SEMICOLON !== 'undefined' && !SEMICOLON.Mobile.any()) {
+			skrollr.init({
+				forceHeight: false,
+				smoothScrolling: true,
+				mobileCheck: function () {
+					return false;
+				}
+			});
+		}
 
-		skrollr.init({ forceHeight: false });
+		this.$nextTick(() => {
+				jQuery('#oc-services').owlCarousel({
+					items: 1,
+					margin: 30,
+					nav: false,
+					dots: true,
+					smartSpeed: 400,
+					responsive: {
+						576: { stagePadding: 30, items: 1 },
+						768: { stagePadding: 30, items: 2 },
+						991: { stagePadding: 150, items: 3 },
+						1200: { stagePadding: 150, items: 3 }
+					},
+				});
+			});		// // Skrollr initialization
+		// if (typeof SEMICOLON !== 'undefined' && !SEMICOLON.Mobile.any()) {
+		// 	console.log("skrollr", skrollr);
 
-		jQuery('#oc-services').owlCarousel({
-			items: 1,
-			margin: 30,
-			nav: false,
-			dots: true,
-			smartSpeed: 400,
-			responsive: {
-				576: { stagePadding: 30, items: 1 },
-				768: { stagePadding: 30, items: 2 },
-				991: { stagePadding: 150, items: 3 },
-				1200: { stagePadding: 150, items: 3 }
-			},
-		});
+		// 	skrollr.init();
+		// }
+
+		// // Owl Carousel initialization
+		// jQuery('#oc-services').owlCarousel({
+		// 	items: 1,
+		// 	margin: 30,
+		// 	nav: false,
+		// 	dots: true,
+		// 	smartSpeed: 400,
+		// 	responsive: {
+		// 		576: { stagePadding: 30, items: 1 },
+		// 		768: { stagePadding: 30, items: 2 },
+		// 		991: { stagePadding: 150, items: 3 },
+		// 		1200: { stagePadding: 150, items: 3 }
+		// 	},
+		// });
+	},
+	methods: {
 	},
 }
 </script>

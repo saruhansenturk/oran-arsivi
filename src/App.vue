@@ -1,18 +1,19 @@
 <template>
-		<router-view />
+	<router-view />
 </template>
 
 <script>
-import skrollr from '../node_modules/skrollr/dist/skrollr.min.js';
 import jQuery from 'jquery';
+import '@/assets/js/skrollr.min.js';
+
 
 
 export default {
 	created() {
-
+		
 	},
 	mounted() {
-		
+
 	},
 }
 </script>

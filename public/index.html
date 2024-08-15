@@ -12,11 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
 
-  <body>
+  <body class="stretched page-transition" data-loader="2" data-animation-in="fadeIn" data-speed-in="1500" data-animation-out="fadeOut" data-speed-out="800">
     <noscript>
       <strong
         >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
@@ -25,7 +24,7 @@
       >
     </noscript>
 
-    <div class="stretched" id="app"></div>
+    <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
 </html>
